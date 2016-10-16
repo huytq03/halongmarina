@@ -3,8 +3,24 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ @font-face {
+font-family: 'roboto';
+src: url(font/roboto/Roboto-Regular.ttf);
+ }
+  @font-face {
+font-family: 'roboto-bold';
+src: url(font/roboto/Roboto-Bold.ttf);
+ }
+  @font-face {
+font-family: 'roboto-light';
+src: url(font/roboto/Roboto-Light.ttf);
+ }
+   @font-face {
+font-family: 'roboto-medium';
+src: url(font/roboto/Roboto-Medium.ttf);
+ }
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'roboto';
   overflow-x: hidden;
 }
 p {
@@ -27,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "roboto-bold";
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -87,9 +103,8 @@ header .container .row {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "roboto-bold";
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 2em;
 }
 header .intro-text .skills {
@@ -111,7 +126,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: transparent;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "roboto";
   text-transform: uppercase;
   font-weight: 100;
   border: none;
@@ -584,6 +599,7 @@ fieldset[disabled] .btn-success.active {
 .menu {
   list-style:none;
   padding-left: 0;
+  margin-top: 10px;
 }
 .menu > li {
 }
@@ -592,7 +608,7 @@ fieldset[disabled] .btn-success.active {
   color: #188cbc;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: Arial, Helvetica;
+  font-family: "roboto";
   font-size: 14px;
 
       font-weight: bold;
@@ -602,13 +618,13 @@ fieldset[disabled] .btn-success.active {
   color: white;
 }
 .menu > li > a {
-  padding: 1em 2em;
+  padding: 0.7em 2em;
 }
 /* Dropdown */
 .submenu {
     position: absolute;
     width: 400px;
-    margin-left: 160px;
+    margin-left: 200px;
     margin-top: -100px;
     background-color: rgba(14, 20, 37, 0.81);
     -webkit-transform: skewX(-45deg) translateX(0);
@@ -715,13 +731,13 @@ div.overview-project-container {
       margin-left: 0;
     width: 70%;
     height: 100%;
-    padding-left: 300px;
+    padding-left: 10%;
     color: white;
     background-image: url(img/blue-bg-1.png);
     background-position: left;
         padding-top: 100px;
     padding-bottom: 100px;
-    background-repeat: no-repeat;
+    background-repeat: round;
 }
 .map {
     width: 100%;
@@ -730,17 +746,17 @@ div.overview-project-container {
 }
 .map-info {
     background-image: url(img/white-bg-1.png);
-    position:relative; 
+    position: relative;
     width: 60%;
-    height: 600px;
+    height: 100%;
     top: -605px;
     float: right;
-        padding-left: 600px;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
-.cf:before, .cf:after {
+/*.cf:before, .cf:after {
   content:" ";
   display: table;
 }
@@ -773,7 +789,7 @@ div.overview-project-container {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: Arial, Helvetica;
+  font-family: "roboto";
   font-size: 14px;
 }
 .footer-menu li:hover {
@@ -786,7 +802,7 @@ div.overview-project-container {
     padding: 0;
     overflow: hidden;
     background: transparent;
-}
+}*/
 
 
 
@@ -850,7 +866,7 @@ text-decoration:none;
 display:inline-block;
 text-transform:uppercase;
 color:#fff;
-border:1px solid #fff;
+/*border:1px solid #fff;*/
 background-color:transparent;
 opacity:0;
 filter:alpha(opacity=0);
@@ -868,6 +884,7 @@ box-shadow:0 0 5px #fff;
 -ms-transform:scale(2);
 -webkit-transform:scale(2);
 transform:scale(2);
+ov
 }
 
 .hovereffect:hover .overlay {
@@ -888,7 +905,7 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
-
+/*
 .hovereffect2 {
   width: 100%;
   height: 100%;
@@ -978,7 +995,7 @@ transition-delay:.2s;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-}
+}*/
 .footer-logo {    
   border-bottom: 1px solid #ccc;
     height: 100px;
@@ -1069,4 +1086,5 @@ color: #00d8ff;
 }
 .skills {
   color: rgba(255, 255, 255, 0.63);
+  font-family: 'roboto-light';
 }

@@ -18,10 +18,10 @@
                 
                <div class="div-circle-cover col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="div-circle hovereffect">
-                       <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/img/BDS_sale.jpeg">
+                       <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/img/BDS_sale_crop.png">
                        <span class="header-child-info">BẤT ĐỘNG SẢN BẢN</span>
                        <div class="overlay">
-                           <a class="info" href="#">link here</a>
+                           <a class="info" href="#"> </a>
                            <h2>BẤT ĐỘNG SẢN BẢN</h2>
                         </div>
                    </div>
@@ -29,10 +29,10 @@
                         <div class="div-circle-cover col-lg-3 col-md-4 col-sm-6 col-xs-12">
                <div class="div-circle hovereffect">
                    
-                   <img  lass="img-responsive" src="<?php echo get_template_directory_uri();?>/img/BDS_hide.png">
+                   <img  lass="img-responsive" src="<?php echo get_template_directory_uri();?>/img/BDS_new_crop.png">
                    <span class="header-child-info">BẤT ĐỘNG SẢN CHO THUÊ</span>
                    <div class="overlay">
-                           <a class="info" href="#">link here</a>
+                           <a class="info" href="#"> </a>
                            <h2>BẤT ĐỘNG SẢN CHO THUÊ</h2>
                         </div>
                </div>
@@ -40,11 +40,11 @@
                         <div class="div-circle-cover col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
                <div class="div-circle hovereffect">
                    
-                   <img lass="img-responsive" src="<?php echo get_template_directory_uri();?>/img/top_image.png">
+                   <img lass="img-responsive" src="<?php echo get_template_directory_uri();?>/img/BDS_hide_crop.png">
                    <span class="header-child-info">SỰ KIỆN NỔI BẬT</span>
                    <div class="overlay">
-                           <a class="info" href="#">link here</a>
-                           <h2>BSỰ KIỆN NỔI BẬT</h2>
+                           <a class="info" href="#"> </a>
+                           <h2>SỰ KIỆN NỔI BẬT</h2>
                         </div>
                </div>
                </div>
@@ -99,7 +99,7 @@
                   <li>
                       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                         <div class="hovereffect2">
-                            <img class="img-responsive" src="" alt="">
+                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/khucanho.png" alt="">
                                 <div class="overlay">
                                     <h2>KHU CĂN HỘ >></h2>
                    
