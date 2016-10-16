@@ -93,53 +93,44 @@
 
     <!-- Contact Section -->
     <section class="footer-menu-sesion">
-        
-               
-                <ul class="footer-menu cf">
-                  <li>
-                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="hovereffect2">
-                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/khucanho.png" alt="">
-                                <div class="overlay">
-                                    <h2>KHU CĂN HỘ >></h2>
-                   
-                                </div>
-                        </div>
+        <div class=" footer-menu">
+            <div class="hovereffect2">
+                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/khucanho.png" alt=""> 
+                 <div class="overlay">
+                    <h2>KHU CĂN HỘ</h2>
+                    <p> 
+                        <a href="#"> </a>
+                    </p> 
+                </div>
+            </div>
+          
+            <div class="hovereffect2" style="margin-left: -150px"> 
+                 <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/khuthuongmai.png" alt="">
+                 <div class="overlay">
+                        <h2>KHU THƯƠNG MẠI</h2>
+                        <p> 
+                            <a href="#"> </a>
+                        </p> 
                     </div>
-                  </li>
-                  <li>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="hovereffect2">
-                                <div class="overlay">
-                                    <h2>KHU THƯƠNG MẠI >></h2>
-                   
-                                </div>
-                        </div>
+                </div>
+            <div class="hovereffect2" style="margin-left: -150px"> 
+                 <img class="img-responsive"   src="<?php echo get_template_directory_uri(); ?>/img/tienichsong.png" alt="">
+                 <div class="overlay">
+                        <h2>TIỆN ÍCH SỐNG</h2>
+                        <p> 
+                            <a href="#"> </a>
+                        </p> 
                     </div>
-
-                  </li>
-                  <li>
-                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="hovereffect2">
-                   
-                                <div class="overlay">
-                                    <h2>TIỆN ÍCH SỐNG >></h2>
-                   
-                                </div>
-                        </div>
+                </div>
+            <div class="hovereffect2" style="margin-left: -150px">
+                 <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/trainghiem_360.png" alt="">
+                 <div class="overlay">
+                        <h2>TRẢI NGHIỆM 360</h2>
+                        <p> 
+                            <a href="#"> </a>
+                        </p> 
                     </div>
-                  </li>
-                  <li>
-                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="hovereffect2">
-                                <div class="overlay">
-                                    <h2>TIỆN ÍCH SỐNG >></h2>
-                   
-                                </div>
-                        </div>
-                    </div>
-                  </li>
-                </ul>
-    
+                </div>
+            </div> 
     </section>
     <?php get_footer() ?>

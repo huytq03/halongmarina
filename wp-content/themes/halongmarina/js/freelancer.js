@@ -51,11 +51,9 @@
                 $('#mainNav').fadeIn("slow");
                 $('#scroll-button').addClass("hidden-sm hidden-xs hidden-lg hidden-md");
             }
-            if($(this).scrollTop() > 1200) {
-                $('#map-info').fadeIn("slow");
-            } else {
-                $('#map-info').fadeOut("slow");
-            }
+
+        $(".overview-project").css("opacity", $(window).scrollTop() / 700);
+        $(".map-info").css("opacity", $(window).scrollTop() / 1000);
         });
 
 })(jQuery); // End of use strict

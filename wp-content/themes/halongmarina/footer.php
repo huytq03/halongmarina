@@ -22,25 +22,25 @@
                         <table class="footer-table">
                             <tr>
                             <th>
-                                <a href="#">.  Trang chủ</a>
+                                <a href="#">  Trang chủ</a>
                             </th>
                             <th>
-                                  <a href="#">.  Giới thiệu chung</a>
+                                  <a href="#">  Giới thiệu chung</a>
                             </th>
                           
-                            <th>  <a href="#">.  Liên hệ</a>
+                            <th>  <a href="#">  Liên hệ</a>
                             </th>
-                            <th>  <a href="#">.  Site map</a>
+                            <th>  <a href="#">  Site map</a>
                             </th>
                             </tr>
                             <tr>
-                            <th>  <a href="#">.  Hệ thống phân phối</a>
+                            <th>  <a href="#">  Hệ thống phân phối</a>
                             </th>
-                            <th>  <a href="#">.  Tư liệu bán hàng</a>
+                            <th>  <a href="#">  Tư liệu bán hàng</a>
                             </th>
-                            <th>  <a href="#">.  Tiến độ thi công</a>
+                            <th>  <a href="#">  Tiến độ thi công</a>
                             </th>
-                            <th>  <a href="#">.  Hỏi đáp</a>
+                            <th>  <a href="#">  Hỏi đáp</a>
                             </th>
                             </tr>
                             
